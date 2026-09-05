@@ -21,6 +21,19 @@ Or via Omarchy menu: **Install → Style → Theme** and paste the repo URL.
 | muted / dark_foreground | `#6e6e76` |
 | accent | `#7eb8c9` |
 
+## Backgrounds
+
+Cycle with Omarchy’s wallpaper next control (`omarchy-theme-bg-next` / Style wallpaper cycle). Included:
+
+| File | Mood |
+|------|------|
+| `0-dawn.jpg` | Soft steel glow, top-left |
+| `1-deep.jpg` | Near-flat deep charcoal |
+| `2-horizon.jpg` | Thin pale horizon band |
+| `3-grid.jpg` | Faint technical grid + crosshair |
+| `4-beam.jpg` | Soft diagonal light beam |
+| `5-rings.jpg` | Concentric steel rings |
+
 ## License
 
 MIT © McX424
