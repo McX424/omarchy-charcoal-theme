@@ -27,15 +27,10 @@ Cycle with Omarchy’s wallpaper next control (`omarchy-theme-bg-next` / Style w
 
 | File | Mood |
 |------|------|
-| `0-dawn.jpg` | Soft steel glow, top-left |
-| `1-deep.jpg` | Near-flat deep charcoal |
-| `2-horizon.jpg` | Thin pale horizon band |
-| `3-grid.jpg` | Faint technical grid + crosshair |
-| `4-beam.jpg` | Soft diagonal light beam |
-| `5-rings.jpg` | Concentric steel rings |
 | `6-ridge.jpg` | Layered mountain ridge under steel sky |
 | `7-city-haze.jpg` | Dark city skyline with lit windows |
-| `8-starfield.jpg` | Charcoal night sky, dense stars |
+| `8-starfield.jpg` | 4K charcoal night sky, dense stars |
+
 
 ## License
 
