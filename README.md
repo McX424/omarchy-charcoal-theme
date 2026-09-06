@@ -34,6 +34,8 @@ Cycle with Omarchy’s wallpaper next control (`omarchy-theme-bg-next` / Style w
 | `4-beam.jpg` | Soft diagonal light beam |
 | `5-rings.jpg` | Concentric steel rings |
 | `6-ridge.jpg` | Layered mountain ridge under steel sky |
+| `7-city-haze.jpg` | Dark city skyline with lit windows |
+| `8-starfield.jpg` | Charcoal night sky, dense stars |
 
 ## License
 
