@@ -1,7 +1,7 @@
 mode = "dark"
 
 accent = "#7eb8c9"
-selection = "#25252c"
+selection = "#2a2a32"
 muted = "#3a3a42"
 
 background = "#141416"
@@ -13,6 +13,9 @@ foreground = "#d8d8dc"
 dark_foreground = "#6e6e76"
 light_foreground = "#e4e4e8"
 bright_foreground = "#ececf0"
+
+active_border_color = "#7eb8c9"
+active_tab_background = "#2a2a32"
 
 red = "#c07a7a"
 yellow = "#c4b08a"
