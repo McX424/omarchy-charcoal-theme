@@ -1,6 +1,6 @@
 # Charcoal
 
-A clean charcoal [Omarchy](https://omarchy.org) theme — soft graphite surfaces, cool steel accent, and three 4K wallpapers.
+A clean charcoal [Omarchy](https://omarchy.org) theme — soft graphite surfaces, cool steel accent, and five 4K wallpapers.
 
 ![Charcoal preview](preview.png)
 
@@ -22,7 +22,7 @@ The theme appears as **Charcoal** in the selector.
 | Icons | `Yaru-dark` |
 | Lock screen | `shell.lock.toml` + unlock art |
 | Keyboard RGB | Steel accent |
-| Wallpapers (4K) | Ridge · City · Starfield |
+| Wallpapers (4K) | Ridge Aurora · Liquid Steel · Rain City · Lattice · Abyss |
 
 ## Wallpapers
 
@@ -30,9 +30,11 @@ Cycle with Style wallpaper next / `omarchy-theme-bg-next`.
 
 | File | Mood |
 |------|------|
-| `01-ridge.jpg` | Layered ridgeline under a steel sky |
-| `02-city-haze.jpg` | Dark city skyline with lit windows |
-| `03-starfield.jpg` | Dense charcoal night sky |
+| `01-ridge-aurora.jpg` | Ridgeline under a cool steel aurora |
+| `02-liquid-steel.jpg` | Flowing graphite / steel gradients |
+| `03-rain-city.jpg` | Wet city night, charcoal haze |
+| `04-lattice.jpg` | Soft geometric lattice on ink |
+| `05-abyss.jpg` | Deep charcoal abyss |
 
 ## Palette
 
