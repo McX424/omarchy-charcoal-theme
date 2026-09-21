@@ -23,7 +23,7 @@ The theme appears as **Charcoal** in the selector.
 | Icons | `Yaru-dark` |
 | Hyprland | Soft steel active border + light shadow |
 | btop | Charcoal `btop.theme` |
-| Chromium | Steel accent RGB `126,184,201` |
+| Chromium | Steel mist frame RGB `24,32,40` (#182028) |
 | Lock screen | `shell.lock.toml` + unlock art |
 | Keyboard RGB | Steel accent |
 | Wallpapers | Five 4K (3840×2160) + ultrawide 3440×1440 and 3840×1600 crops |
