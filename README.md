@@ -1,6 +1,6 @@
 # Charcoal
 
-A clean charcoal [Omarchy](https://omarchy.org) theme — soft graphite surfaces, cool steel accent, and five 4K wallpapers.
+A clean charcoal [Omarchy](https://omarchy.org) theme — soft graphite surfaces, cool steel accent `#7eb8c9`, Nord editor pairing, and five 4K wallpapers (plus ultrawide crops).
 
 ![Charcoal preview](preview.png)
 
@@ -19,14 +19,18 @@ The theme appears as **Charcoal** in the selector.
 | Piece | Detail |
 |-------|--------|
 | Palette | Graphite greys + steel accent `#7eb8c9` |
+| Editors | Neovim `nordfox` · VS Code Nord |
 | Icons | `Yaru-dark` |
+| Hyprland | Soft steel active border + light shadow |
+| btop | Charcoal `btop.theme` |
+| Chromium | Steel accent RGB `126,184,201` |
 | Lock screen | `shell.lock.toml` + unlock art |
 | Keyboard RGB | Steel accent |
-| Wallpapers (4K) | Ridge Aurora · Liquid Steel · Rain City · Lattice · Abyss |
+| Wallpapers | Five 4K (3840×2160) + ultrawide 3440×1440 and 3840×1600 crops |
 
 ## Wallpapers
 
-Cycle with Style wallpaper next / `omarchy-theme-bg-next`.
+Cycle 4K backgrounds with Style wallpaper next / `omarchy-theme-bg-next` (Omarchy reads files directly under `backgrounds/`).
 
 | File | Mood |
 |------|------|
@@ -35,6 +39,28 @@ Cycle with Style wallpaper next / `omarchy-theme-bg-next`.
 | `03-rain-city.jpg` | Wet city night, charcoal haze |
 | `04-lattice.jpg` | Soft geometric lattice on ink |
 | `05-abyss.jpg` | Deep charcoal abyss |
+
+### Ultrawide (34″)
+
+Ultrawide crops live in subfolders (not in the default cycle — set explicitly):
+
+```bash
+omarchy theme bg set ~/.config/omarchy/themes/charcoal/backgrounds/ultrawide-3440/01-ridge-aurora.jpg
+# or 3840×1600:
+omarchy theme bg set ~/.config/omarchy/themes/charcoal/backgrounds/ultrawide-3840x1600/01-ridge-aurora.jpg
+```
+
+| Folder | Resolution |
+|--------|------------|
+| `backgrounds/ultrawide-3440/` | 3440×1440 |
+| `backgrounds/ultrawide-3840x1600/` | 3840×1600 |
+
+Same five filenames in each folder.
+
+## Editors
+
+- **Neovim / LazyVim** — `neovim.lua` loads [nightfox.nvim](https://github.com/EdenEast/nightfox.nvim) with `nordfox`
+- **VS Code** — `vscode.json` → Nord (`arcticicestudio.nord-visual-studio-code`)
 
 ## Palette
 
@@ -48,7 +74,7 @@ Cycle with Style wallpaper next / `omarchy-theme-bg-next`.
 | accent | `#7eb8c9` |
 | selection | `#2a2a32` |
 
-Terminal ANSI colours stay desaturated so code stays readable without neon noise.
+Terminal ANSI stays desaturated; `bright_*` is nudged slightly for readable git diffs without going neon.
 
 ## Remove
 
@@ -61,7 +87,6 @@ omarchy theme remove charcoal
 ## Notes for distributors
 
 - Repo naming follows `omarchy-[name]-theme` so install shows as **Charcoal**.
-- No `neovim.lua` / `vscode.json` / terminal configs — Omarchy regenerates those from `colors.toml` for installed themes.
 - Optional: list on the [extra themes](https://omarchy.org) page via a PR to the omarchy-site repo.
 
 ## License
